@@ -13,12 +13,12 @@ app.use(express.static(__dirname + '/Public'))
 app.get('/', (req, res)=>{
     res.sendFile(__dirname + '/index.html')
 })
-app.get('/loginBc', (req, res)=>{
-    res.sendFile(__dirname + '/Public/loginBc.html')
-})
-app.get('/registerBc', (req, res)=>{
-    res.sendFile(__dirname + '/Public/registerBc.html')
-})
-app.post('/', (req, res)=>{
-    res.sendFile(__dirname + '/index.html')
-})
+// app.get('/loginBc', (req, res)=>{
+//     res.sendFile(__dirname + '/loginBc.html')
+// })
+// app.get('/registerBc', (req, res)=>{
+//     res.sendFile(__dirname + '/registerBc.html')
+// })
+// app.post('/', (req, res)=>{
+//     res.sendFile(__dirname + '/index.html')
+// })
